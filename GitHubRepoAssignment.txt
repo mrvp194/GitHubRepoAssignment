@@ -1,0 +1,10 @@
+md GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+New-Item readme.md -type file
+git status
+git add .
+git commit -m 'added readme'
+git remote add origin https://github.com/mrvp194/GitHubRepoAssignment.git
+git push -u origin master
+New-Item GitHubRepoAssignment.txt -type file
